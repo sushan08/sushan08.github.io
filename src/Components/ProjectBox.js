@@ -5,21 +5,21 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    AdventureDesc : "This tourism website offers a comprehensive guide for travelers looking to explore destinations around the world. This project is completely made using HTML, CSS and JavaScript. It is a static website that provides information about various tourist attractions, travel tips, and destination highlights.",
+    AdventureGithub : "https://github.com/sushan08/Tourism-website",
+    AdventureWebsite : "tourism-website-seven-pi.vercel.app",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    MemoryMatchDesc : "Memory Match is a fun puzzle game where players flip cards to find matching pairs. It boosts memory, focus, and concentration.",
+    MemoryMatchGithub : "https://github.com/sushan08/Memory-Matching",
+    MemoryMatchWebsite : "memory-matching-green.vercel.app/",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    TechVerseDesc:"A tech blog app that allows users to read, write, and share articles on the latest technology trends, programming tips, and industry news. This project is a collab project with my college friends developed using mern stack.",
+    TechVerseGithub:"https://github.com/sushan08/TechVerse-final",
+    TechVerseWebsite:"tech-verse-final.vercel.app",
     
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    KUsedStoreDesc:"An e-commerce website dedicated to selling second-hand equipment for college students, offering affordable textbooks, electronics, furniture, and study essentials to help save money and reduce waste.",
+    KUsedStoreGithub:"https://github.com/sushan08/K-Used-Store",
+    KUsedStoreWebsite:"",
   }
 
   let show ='';

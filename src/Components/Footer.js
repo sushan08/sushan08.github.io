@@ -10,7 +10,7 @@ const Footer = () => {
       <h4>Copyright &copy; 2023 SS</h4>
       <div className='footerLinks'>
         <a href="https://github.com/sushan08" target='_blank'><FaGithub/></a>
-        <a href="https://www.linkedin.com/in/sushan-shrestha/" target='_blank'><FaLinkedin/></a>
+        <a href="https://www.linkedin.com/in/sushan-shrestha-85687b305/" target='_blank'><FaLinkedin/></a>
         <a href='mailTo:sushan3523@gmail.com' target='_blank'><GrMail/></a>
       </div>
     </footer>
