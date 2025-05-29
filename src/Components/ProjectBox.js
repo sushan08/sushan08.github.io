@@ -7,26 +7,26 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     AdventureDesc : "This tourism website offers a comprehensive guide for travelers looking to explore destinations around the world. This project is completely made using HTML, CSS and JavaScript. It is a static website that provides information about various tourist attractions, travel tips, and destination highlights.",
     AdventureGithub : "https://github.com/sushan08/Tourism-website",
-    AdventureWebsite : "tourism-website-seven-pi.vercel.app",
+    AdventureWebsite : "https://tourism-website-seven-pi.vercel.app",
 
     MemoryMatchDesc : "Memory Match is a fun puzzle game where players flip cards to find matching pairs. It boosts memory, focus, and concentration.",
     MemoryMatchGithub : "https://github.com/sushan08/Memory-Matching",
-    MemoryMatchWebsite : "memory-matching-green.vercel.app/",
+    MemoryMatchWebsite : "https://memory-matching-green.vercel.app/",
 
     TechVerseDesc:"A tech blog app that allows users to read, write, and share articles on the latest technology trends, programming tips, and industry news. This project is a collab project with my college friends developed using mern stack.",
     TechVerseGithub:"https://github.com/sushan08/TechVerse-final",
-    TechVerseWebsite:"tech-verse-final.vercel.app",
+    TechVerseWebsite:"https://tech-verse-final.vercel.app",
     
     KUsedStoreDesc:"An e-commerce website dedicated to selling second-hand equipment for college students, offering affordable textbooks, electronics, furniture, and study essentials to help save money and reduce waste.",
     KUsedStoreGithub:"https://github.com/sushan08/K-Used-Store",
-    KUsedStoreWebsite:"",
+    KUsedStoreWebsite:"https://kused-store.vercel.app",
   }
 
   let show ='';
   if(desc[projectName + 'Github']===""){
     show="none";
   }
-    
+  
   return (
     <div className='projectBox'> 
         <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
